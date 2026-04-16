@@ -4,7 +4,7 @@
 \alias{filtre_species}
 \title{Filtrer les observations selon l'espèce}
 \usage{
-filtre_species(data, Species)
+filtre_species(data, species_name)
 }
 \arguments{
 \item{data}{Un data.frame contenant une colonne Species}
