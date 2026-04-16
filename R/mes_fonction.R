@@ -35,7 +35,6 @@ stats_var <- function(data, variable){
 
 
 
-
 #' Nuage de points entre deux variables quantitatives
 #'
 #'
