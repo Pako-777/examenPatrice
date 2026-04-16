@@ -83,8 +83,6 @@ plot_quanti_quanti <- function(data, x, y){
 #' @examples
 #' filtre_species(iris, "setosa")
 #' filtre_species(iris, "virginica")
-filtre_species <- function(data, Species){
-
-  data[data$Species == Species, ]
-
+filtre_species <- function(data, species_name) {
+  subset(data, Species == species_name)
 }
