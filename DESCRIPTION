@@ -2,7 +2,7 @@ Package: examenPatrice
 Title: Outils statistiques simples
 Version: 0.0.0.9000
 Authors@R: 
-      person("Patrice", "Kolié", email = "patricepakokolie@gmail.com", role = c("aut", "cre"))
+      person("Patrice", "Kolié", mail = "patricepakokolie@gmail.com", role = c("aut", "cre"))
 Description: Fonctions utiles pour l'analyse de données.
 License: MIT + file LICENSE
 Encoding: UTF-8
