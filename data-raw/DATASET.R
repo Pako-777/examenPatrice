@@ -1,3 +1,10 @@
-## code to prepare `DATASET` dataset goes here
+## code to prepare `iris` dataset goes here
 
-usethis::use_data(DATASET, overwrite = TRUE)
+# Source du jeu de données
+url_jeu_de_donnees <- 'https://www.kaggle.com/datasets/himanshunakrani/iris-dataset'
+
+# Charger les données (déjà téléchargées manuellement)
+iris <- read.csv("data-raw/iris.csv")
+
+# Sauvegarder dans le package
+usethis::use_data(iris, overwrite = TRUE)
