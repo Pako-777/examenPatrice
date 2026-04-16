@@ -1,0 +1,19 @@
+---
+title: "tutoriel_examen"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{tutoriel_examen}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(examenPatrice)
+```
